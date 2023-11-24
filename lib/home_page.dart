@@ -9,8 +9,13 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Home Page'),
       ),
-      body: const Center(
-        child: Text('Home Page'),
+      body: Center(
+        child: Container(
+          child: Image.network(
+            'https://www.pngall.com/wp-content/uploads/12/Illustration-PNG.png',
+            width: 350,
+          ),
+        ),
       ),
     );
   }

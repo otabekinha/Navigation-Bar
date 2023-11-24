@@ -9,9 +9,12 @@ class CoursesPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Courses Page'),
       ),
-      body: const Center(
-        child: Text(
-          'Courses Page'
+      body: Center(
+        child: Container(
+          child: Image.network(
+            'https://www.pngall.com/wp-content/uploads/12/Illustration-PNG-Cutout.png',
+            width: 350,
+          ),
         ),
       ),
     );
